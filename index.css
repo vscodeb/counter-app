@@ -1,0 +1,49 @@
+body {
+    background-image: url("car.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(175, 177, 178);
+    opacity: 0.75;
+    max-width: 35%;
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 20px 50px;
+    ;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    color: rgb(0, 0, 0);
+    background: rgb(248, 248, 248);
+}
+
+#save-btn {
+    color: rgb(255, 255, 255);
+    background: rgb(41, 41, 41);
+}
